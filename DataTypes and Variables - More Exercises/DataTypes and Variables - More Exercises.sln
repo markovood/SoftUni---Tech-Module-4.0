@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Data Type Finder", "1. Data Type Finder\1. Data Type Finder.csproj", "{E4F2D961-E793-4CCB-8517-09500084A3FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1. Data Type Finder", "1. Data Type Finder\1. Data Type Finder.csproj", "{E4F2D961-E793-4CCB-8517-09500084A3FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. From Left to The Right", "2. From Left to The Right\2. From Left to The Right.csproj", "{CAAF11E7-A25B-47D4-A8B2-7D872338ED90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. From Left to The Right", "2. From Left to The Right\2. From Left to The Right.csproj", "{CAAF11E7-A25B-47D4-A8B2-7D872338ED90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Exchange Integers", "3. Exchange Integers\3. Exchange Integers.csproj", "{ABF32900-CE6C-4E59-BF73-506E60FDF53A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Exchange Integers", "3. Exchange Integers\3. Exchange Integers.csproj", "{ABF32900-CE6C-4E59-BF73-506E60FDF53A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Floating Equality", "4.  Floating Equality\4. Floating Equality.csproj", "{DE63BBF8-902F-4022-975A-646E9832D8BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Floating Equality", "4.  Floating Equality\4. Floating Equality.csproj", "{DE63BBF8-902F-4022-975A-646E9832D8BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Refactoring Prime Checker", "5. Refactoring Prime Checker\5. Refactoring Prime Checker.csproj", "{855C09D9-AD79-4F26-85D2-C2FCBF5145EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Refactoring Prime Checker", "5. Refactoring Prime Checker\5. Refactoring Prime Checker.csproj", "{855C09D9-AD79-4F26-85D2-C2FCBF5145EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1 Data Type Finder (variant)", "1.1 Data Type Finder (variant)\1.1 Data Type Finder (variant).csproj", "{AF6117B5-B2B3-43C7-B6E8-83DA509912BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{855C09D9-AD79-4F26-85D2-C2FCBF5145EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{855C09D9-AD79-4F26-85D2-C2FCBF5145EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{855C09D9-AD79-4F26-85D2-C2FCBF5145EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF6117B5-B2B3-43C7-B6E8-83DA509912BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6117B5-B2B3-43C7-B6E8-83DA509912BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6117B5-B2B3-43C7-B6E8-83DA509912BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6117B5-B2B3-43C7-B6E8-83DA509912BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
