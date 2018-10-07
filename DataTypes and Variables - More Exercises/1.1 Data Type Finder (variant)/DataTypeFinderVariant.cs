@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 
 namespace _1._1_Data_Type_Finder__variant_
 {
@@ -19,7 +20,7 @@ namespace _1._1_Data_Type_Finder__variant_
         private static string GetDataType(string input)
         {
             // solve with this example
-            bool isInteger = int.TryParse(input, out int intResult);
+            bool isInteger = BigInteger.TryParse(input, out BigInteger intResult);
             bool isBoolean = bool.TryParse(input, out bool boolResult);
             bool isChar = char.TryParse(input, out char charResult);
             bool isFloatingPoint = double.TryParse(input, out double floatingPointResult);
