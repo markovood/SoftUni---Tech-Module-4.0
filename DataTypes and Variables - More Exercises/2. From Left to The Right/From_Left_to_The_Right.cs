@@ -15,11 +15,12 @@ namespace _2._From_Left_to_The_Right
 
                 if (firstNumber > secondNumber)
                 {
-                    Console.WriteLine(SumOfDigits(firstNumber));
+                    // Math.Abs is used since number could be negative
+                    Console.WriteLine(SumOfDigits(Math.Abs(firstNumber)));
                 }
                 else
                 {
-                    Console.WriteLine(SumOfDigits(secondNumber));
+                    Console.WriteLine(SumOfDigits(Math.Abs(secondNumber)));
                 }
             }
         }

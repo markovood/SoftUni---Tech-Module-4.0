@@ -16,7 +16,6 @@ namespace _3._Exchange_Integers
             int temp = firstInt;
             firstInt = secondInt;
             secondInt = temp;
-            Console.WriteLine();
 
             Console.WriteLine("After:");
             Console.WriteLine($"a = {firstInt}");

@@ -24,21 +24,21 @@ namespace _1._1_Data_Type_Finder__variant_
             bool isChar = char.TryParse(input, out char charResult);
             bool isFloatingPoint = double.TryParse(input, out double floatingPointResult);
 
-            if (isInteger)
+            if (isBoolean)
+            {
+                return "boolean";
+            }
+            else if (isInteger)
             {
                 return "integer";
+            }
+            else if (isChar)
+            {
+                return "character";
             }
             else if (isFloatingPoint)
             {
                 return "floating point";
-            }
-            else if (isChar)
-            {
-                return "char";
-            }
-            else if (isBoolean)
-            {
-                return "boolean";
             }
             else
             {
