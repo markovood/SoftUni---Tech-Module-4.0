@@ -6,4 +6,8 @@
     <RootNamespace>_07._Merging_Lists</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Merging_Lists.cs~RFccecc9e.TMP" />
+  </ItemGroup>
+
 </Project>
