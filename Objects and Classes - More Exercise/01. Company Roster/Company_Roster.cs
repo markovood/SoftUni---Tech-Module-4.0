@@ -38,15 +38,13 @@ namespace _01._Company_Roster
                 deptAndAverageSalary.Add(departament, averageSalary);
             }
 
-            deptAndAverageSalary = deptAndAverageSalary
-                                    .OrderByDescending(x => x.Value)
-                                    .ToDictionary(x => x.Key, x => x.Value);
+            var orderedDeptAndAverageSalary = deptAndAverageSalary
+                                    .OrderByDescending(x => x.Value);
 
-            string bestDepartament = deptAndAverageSalary.First().Key;
+            string bestDepartament = orderedDeptAndAverageSalary.First().Key;
 
             var employeesFromBestDept = deptAndEmployees[bestDepartament]
-                                            .OrderByDescending(x => x.Salary)
-                                            .ToArray();
+                                            .OrderByDescending(x => x.Salary);
 
             Console.WriteLine($"Highest Average Salary: {bestDepartament}");
             foreach (var employee in employeesFromBestDept)
