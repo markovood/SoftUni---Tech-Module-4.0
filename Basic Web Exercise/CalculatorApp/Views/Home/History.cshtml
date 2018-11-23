@@ -1,0 +1,32 @@
+﻿@model List<CalculatorApp.Models.Calculator>
+
+@{
+    ViewData["Title"] = "History";
+    int recordNumber = 1;
+}
+
+<h2>History</h2>
+@foreach (var calculator in Model)
+{
+<section class="container">
+        <div class="col-xs-1">
+            <strong>record #@recordNumber</strong>
+        </div>
+        <div class="col-xs-2">
+            @calculator.LeftOperand
+        </div>
+        <div class="col-xs-1">
+            <strong>@calculator.Operator</strong>
+        </div>
+        <div class="col-xs-2">
+            @calculator.RightOperand
+        </div>
+        <div class="col-xs-1">
+            <p><strong>=</strong></p>
+        </div>
+        <div class="col-xs-2">
+            @calculator.Result
+        </div>
+</section>
+    recordNumber++;
+}
