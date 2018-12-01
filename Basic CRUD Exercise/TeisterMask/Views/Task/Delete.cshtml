@@ -1,7 +1,8 @@
 ﻿@model TeisterMask.Models.Task
 
 @{
-	ViewBag.Title = "Delete Task";
+    ViewBag.Title = "Delete Task";
+    string bgColor = string.Empty;
 }
 
 <header>
@@ -14,9 +15,13 @@
 
 	<div>
 		<label class="desc" for="title">Title</label>
-		<div>
-			<input id="title" name="title" type="text" class="field text fn" value="@Model.Title" size="8" tabindex="1" autofocus disabled="disabled">
-		</div>
+        <div>
+            @if (ViewData.ContainsKey("Error"))
+            {
+                bgColor = ViewData["Error"].ToString();
+            }
+            <input id="title" name="title" type="text" class="field text fn @bgColor" value="@Model.Title" size="8" tabindex="1" autofocus disabled="disabled">
+        </div>
 	</div>
 
 	<div>

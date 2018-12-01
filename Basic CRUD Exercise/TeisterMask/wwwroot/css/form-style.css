@@ -84,6 +84,10 @@ textarea:focus {
 	border-color: #4697e4;
 }
 
+.bg-danger {
+    background-color: orangered;
+}
+
 .button {
 	font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	color: #fff;
